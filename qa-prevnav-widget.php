@@ -101,17 +101,19 @@ $out1.='
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TIFR Maths<span class="caret"></span></a>
           <ul class="dropdown-menu">';
-			for($i=2010; $i <= 2015; $i++)
-			{
-				$out1.='<li><a href="/tag/tifr-maths-'.$i.'">TIFR Maths '.$i.'</a></li>';
-			}
-			$output = '<div class="prevnav-widget-container">'.$out1.'</div>';
+		for($i=2010; $i <= 2015; $i++)
+		{
+			$out1.='<li><a href="/tag/tifr-maths-'.$i.'">TIFR Maths '.$i.'</a></li>';
+		}
 $out1.='
-          </ul>
-        </li>
-      </ul>';
-			
-			$themeobject->output(
+  </ul>
+</li>
+</ul>';
+$out1.='<ul class="nav nav-pills">
+<li role="presentation"><a href="/tags">Topics</a></li></ul>';
+		$output = '<div class="prevnav-widget-container">'.$out1.'</div>';
+		
+		$themeobject->output(
 				$output
 			);			
 		}
