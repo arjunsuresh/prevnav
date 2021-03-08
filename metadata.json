@@ -1,0 +1,15 @@
+{
+  "name": "PrevNav",
+  "uri": "https://github.com/arjunsuresh/prevnav",
+  "description": "Adds nav bar to sidepanel",
+  "version": "1.0",
+  "date": "2015-01-08",
+  "author": "Arjun Suresh",
+  "author_uri": "",
+  "license": "GPLv2",
+  "update_uri": "https://raw.githubusercontent.com/arjunsureh/prevnav/master/metadata.json",
+  "min_q2a": "1.7",
+  "min_php": "5.1.6"
+  "load_order": "after_db_init"
+}
+
